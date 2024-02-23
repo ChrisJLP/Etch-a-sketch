@@ -15,3 +15,11 @@ for (let i = 0; i < gridX; i++) {
     }
 }
 
+const squares = document.querySelectorAll('.square');
+console.log(squares);
+
+squares.forEach((square) => {
+    square.addEventListener('mouseover', () => {
+        square.style.backgroundColor = 'green';
+    })
+})
