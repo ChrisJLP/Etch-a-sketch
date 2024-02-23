@@ -1,0 +1,17 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+}
